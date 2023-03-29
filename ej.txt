@@ -1,0 +1,3 @@
+1) Graficar las locaciones de los aeropuertos del dataset Airports sobre un mapa de Basemap.
+
+2) Interpretar los datos del dataset mostrado en el notebook de Seaborn con información de los "split time" de un conjunto de corredores.

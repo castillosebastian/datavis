@@ -1,0 +1,4 @@
+basemap
+pillow
+netCDF4
+networkx
