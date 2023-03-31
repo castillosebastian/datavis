@@ -2,3 +2,9 @@ basemap
 pillow
 netCDF4
 networkx
+polars
+pyarrow
+chart-studio
+nbformat
+dash
+pip install dash-bootstrap-components
