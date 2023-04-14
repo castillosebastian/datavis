@@ -108,7 +108,7 @@ app.layout = html.Div([
                                         ],
                                         className="card-text",
                                     ),
-                                    dbc.CardLink("Github", href="https://github.com/castillosebastian/datavis"),
+                                    dbc.CardLink("CSCastillo Github", href="https://github.com/castillosebastian/datavis"),
                                 ]
                             ),                            
                             style={                            
