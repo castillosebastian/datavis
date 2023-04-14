@@ -121,4 +121,4 @@ app.layout = html.Div([
                         'displaylogo': False}),
     ])
 
-app.run_server()  # Turn off reloader if inside Jupyter
+app.run_server(port=8052)  # Turn off reloader if inside Jupyter
