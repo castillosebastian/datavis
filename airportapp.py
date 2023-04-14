@@ -104,10 +104,11 @@ app.layout = html.Div([
                                     ),
                                     html.H5(
                                         [
-                                            "Gráfico que contiene los aeropuertos en el mundo",
+                                            "Gráfico que contiene los aeropuertos en el mundo. ",                                            
                                         ],
                                         className="card-text",
                                     ),
+                                    dbc.CardLink("Github", href="https://github.com/castillosebastian/datavis"),
                                 ]
                             ),                            
                             style={                            
