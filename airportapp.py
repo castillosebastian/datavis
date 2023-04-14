@@ -63,9 +63,6 @@ fig.update_layout(legend_title_text='')
 
 fig = go.Figure(fig) # or any Plotly Express function e.g. px.bar(...)
 
-# fig.add_trace( ... )
-# fig.update_layout( ... )
-
 app = dash.Dash(
 __name__, external_stylesheets=[dbc.themes.DARKLY],
 )
@@ -124,4 +121,4 @@ app.layout = html.Div([
                         'displaylogo': False}),
     ])
 
-app.run_server(debug=True, port=8051)  # Turn off reloader if inside Jupyter
+app.run_server()  # Turn off reloader if inside Jupyter
